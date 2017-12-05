@@ -59,7 +59,7 @@ export class Blame {
     static file(repo: Repository, path: string, options?: BlameOptions): Blame;
 
     /**
-     * Initializes a `Blame.Options` with default values. Equivalent to
+     * Initializes a `BlameOptions` with default values. Equivalent to
      * creating an instance with default options.
      *
      * @param opts - The `Blame Options` to initialize.
